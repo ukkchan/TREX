@@ -361,7 +361,7 @@ def gameplay():
     Cloud.containers = clouds
 
     retbutton_image,retbutton_rect = load_image('replay_button.png',35,31,-1)
-    gameover_image,gameover_rect = load_image('game_over.png',190,11,-1)
+    gameover_image,gameover_rect = load_image('game_over.png',200,200,-1)
 
     temp_images,temp_rect = load_sprite_sheet('numbers.png',12,1,11,int(11*6/5),-1)
     HI_image = pygame.Surface((22,int(11*6/5)))
